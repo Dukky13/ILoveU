@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Um site interatio para o nosso 3º mês de namoro feita com carinho.">
+  <title>Eu amo te princesa!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+
+  <div class="ambient" aria-hidden="true">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <main>
+    <section class="welcome-screen" id="welcome" aria-label="Boas-vindas">
+      <div class="welcome-aura" data-parallax="0.035"></div>
+      <div class="welcome-content reveal-now">
+        <p class="eyebrow">Uma pequena recordação feita para ti</p>
+        <h1>Bem-vinda amor ❤️</h1>
+        <p>Aqui vais encontrar algumas memórias nossas e algo que eu te queira dizer :)</p>
+        <button class="btn btn-primary ripple magnetic" id="enterButton" type="button">
+          <span>Entrar</span>
+        </button>
+      </div>
+    </section>
+
+    <div class="experience" id="experience" aria-hidden="true">
+      <nav class="floating-nav" aria-label="Navegação principal">
+        <a href="#hero">Início</a>
+        <a href="#historia">História</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#carta">Carta</a>
+      </nav>
+
+      <section class="hero section" id="hero">
+        <div class="hero-media" data-parallax="0.05">
+          <div class="hero-photo" role="img" aria-label="Fotografia romântica estilizada com flores e luz suave"></div>
+        </div>
+        <div class="section-inner hero-inner">
+          <p class="eyebrow reveal">Só nós os dois</p>
+          <h2 class="reveal">Cada dia contigo fico te a amar mais</h2>
+          <p class="hero-copy reveal">Este site guarda aquilo que às vezes as palavras do dia a dia não conseguem dizer, obrigado por estares comigo gostosa</p>
+          <a class="btn btn-ghost ripple magnetic reveal" href="#historia">Começar</a>
+        </div>
+      </section>
+
+      <section class="section story" id="historia">
+        <div class="section-inner">
+          <p class="eyebrow reveal">A nossa história</p>
+          <h2 class="section-title reveal">Alguns momentos que amamos (pelomenos eu)</h2>
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <time>5 Abr 2026</time>
+              <h3>Quando EU pedi em namoro :)</h3>
+              <p>Foi incrivel, eu amei quando nós os dois dissemos que gostavamos um do outro, o meu coração acelarou automáticamente</p>
+            </article>
+            <article class="timeline-item reveal">
+              <time>14 Abr 2026</time>
+              <h3>O nosso primeiro beijo</h3>
+              <p>EU AMEIII, principalmente quando olhaste para mim de forma super suave e dps beijaste-me, mdssss</p>
+            </article>
+            <article class="timeline-item reveal">
+              <time>Hoje</time>
+              <h3>Continuamos a escrever</h3>
+              <p>Este espaço fica aberto para novas datas e novas fotografias :3</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section gallery-section" id="galeria">
+        <div class="section-inner">
+          <p class="eyebrow reveal">Galeria</p>
+          <h2 class="section-title reveal">Algumas fotos que eu amoo</h2>
+          <h3>(n temos muitas fotos juntos, por isso pus 1 nossa e 2 tuas que eu gosto :3)</h3>
+          <div class="gallery">
+            <button class="photo-card reveal ripple" type="button" data-title="O nosso lugar" data-image="nos.jpg">
+              <span class="photo photo-one"></span>
+              <strong>O nosso lugar</strong>
+            </button>
+            <button class="photo-card reveal ripple" type="button" data-title="Um dia perfeito" data-image="IMG_20260610_202350_258.jpg">
+              <span class="photo photo-two"></span>
+              <strong>Um dia perfeito</strong>
+            </button>
+            <button class="photo-card reveal ripple" type="button" data-title="Risadas guardadas" data-image="IMG_20260625_202859_741.jpg">
+              <span class="photo photo-three"></span>
+              <strong>Risadas guardadas</strong>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reasons-section" id="razoes">
+        <div class="section-inner">
+          <p class="eyebrow reveal">Razões porque te amo</p>
+          <h2 class="section-title reveal">Há sempre mais uma.</h2>
+          <div class="reasons-grid">
+            <button class="flip-card reveal" type="button">
+              <span class="flip-face flip-front">01</span>
+              <span class="flip-face flip-back">A forma como me tratas (super bemmm)</span>
+            </button>
+            <button class="flip-card reveal" type="button">
+              <span class="flip-face flip-front">02</span>
+              <span class="flip-face flip-back">Sempre que estou contigo sinto-me como alguém especial</span>
+            </button>
+            <button class="flip-card reveal" type="button">
+              <span class="flip-face flip-front">03</span>
+              <span class="flip-face flip-back">Porque cuidas de mim (teu neném :3), ouves-me e fazes-me sentir como se tivesse em casa.</span>
+            </button>
+            <button class="flip-card reveal" type="button">
+              <span class="flip-face flip-front">04</span>
+              <span class="flip-face flip-back">Porque amo a tua forma de ser</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section counter-section" id="contador">
+        <div class="section-inner">
+          <p class="eyebrow reveal">Desde o nosso começo</p>
+          <h2 class="section-title reveal">O tempo também sabe o quanto és importante.</h2>
+          <div class="counter reveal" data-start-date="2026-04-05T10:00:00">
+            <div><strong id="years">0</strong><span>anos</span></div>
+            <div><strong id="months">0</strong><span>meses</span></div>
+            <div><strong id="days">0</strong><span>dias</span></div>
+            <div><strong id="hours">0</strong><span>horas</span></div>
+            <div><strong id="minutes">0</strong><span>minutos</span></div>
+            <div><strong id="seconds">0</strong><span>segundos</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section letter-section" id="carta">
+        <div class="section-inner narrow">
+          <p class="eyebrow reveal">Carta</p>
+          <h2 class="section-title reveal">Uma carta pra tiii</h2>
+          <article class="letter reveal">
+            <p id="typedLetter"></p>
+            <p class="letter-more" id="letterMore">Prometo continuar a amar-te nos dias fáceis e nos dias dificeis. Prometo reparar em todos os detalhes que te façam feliz. Obrigado por seres quem és amor ❤️ </p>
+            <button class="btn btn-primary ripple magnetic" id="letterButton" type="button">Mostrar o resto da carta</button>
+          </article>
+        </div>
+      </section>
+
+      <section class="section capsule-section" id="capsula">
+        <div class="section-inner narrow">
+          <p class="eyebrow reveal">Outra mensagemm?</p>
+          <h2 class="section-title reveal">Uma outra mensagem guardada só para ti.</h2>
+          <div class="capsule reveal">
+            <button class="capsule-button ripple magnetic" id="capsuleButton" type="button">Abrir</button>
+            <div class="capsule-message" id="capsuleMessage">
+              <span>✦</span>
+              <p>Daqui a muitos anos, espero que ainda estejamos juntos, quero aproveitar o resto da minha vida com alguém, e esse alguém é a minha princesa, tu. ❤️</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section final-section" id="surpresa">
+        <div class="section-inner narrow">
+          <p class="eyebrow reveal">Surpresa final</p>
+          <h2 class="section-title reveal">E uma promessa ;)</h2>
+          <button class="final-button ripple magnetic reveal" id="finalButton" type="button">Clica aqui ❤️</button>
+          <p class="final-message" id="finalMessage">Obrigado por estes meses incríveis. Eu amo-te mais todos os dias e vou amar-te para sempre ❤️</p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Fotografia ampliada">
+    <button class="lightbox-close ripple" id="lightboxClose" type="button" aria-label="Fechar">×</button>
+    <div class="lightbox-image" id="lightboxImage"></div>
+    <p id="lightboxTitle"></p>
+  </div>
+
+  <div class="celebration-layer" id="celebrationLayer" aria-hidden="true"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
